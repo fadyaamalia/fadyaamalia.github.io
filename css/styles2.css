@@ -1,0 +1,19 @@
+.header {
+position: relative;
+width: 100%;
+height: auto;
+min-height: 35rem;
+padding: 15rem 0;
+background: url("../assets/img/park.png");
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-size: cover;
+}
+
+@media (min-width: 992px) {
+.header {
+height: 100vh;
+padding: 0;
+}
+}
